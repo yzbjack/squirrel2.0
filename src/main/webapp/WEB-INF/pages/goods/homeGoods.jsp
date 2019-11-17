@@ -238,7 +238,7 @@
                            
                     </div>
                     <div class="input-field col s12">
-                        <input type="password" name="password" required="required" class="validate ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" />
+                        <input type="password" name="password" required="required" class="validate ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" maxlength="20"/>
                         <label>密码</label>
                     </div>
                     <div ng-show="checkTelIsShow" class="col s12">
@@ -360,7 +360,7 @@
                                 <p class="text1">Hello：</p>
                                 <p class="text2">欢迎来到鲁东大学secondHandMarket校园二手工坊。临近毕业季的</p>
                                 <p class="text3">你，是否有太多的闲置与校友分享，为了追求更好的校园服</p>
-                                <p class="text4">务，我们打造了一个全新的校园平台——<span>鲁大二手工坊</p>
+                                <p class="text4">务，我们打造了一个全新的校园平台——<span>鲁大二手工坊</span></p>
                                 <p class="text5">这里有更多的闲置分享，更自由的校园话题讨论，你想要的，都在这里。</p>
                                 <p class="text6">加入LDU-SecondHandMarket，你的大学，应更精彩。</p>
                             </ul>
